@@ -23,4 +23,8 @@ for my $i (<$IN>){
 	print $OUT "$label.isoforms.results\n";
 }
 
+#`$ARGV[1]merge_RSEM_output_to_matrix.pl --rsem_files results.list --mode fpkm > transcripts.FPKM.matrix`;
+
+#`$ARGV[1]merge_RSEM_frag_counts_single_table.pl $nl> transcripts.counts.matrix`;
+
 `$ARGV[1]merge_RSEM_output_to_matrix.pl --rsem_files results.list --mode tpm > transcripts.TPM.matrix`;
